@@ -19,7 +19,7 @@ LiquidCrystal_I2C lcd(0x27, 16, 2); // I2C address 0x27, 16 column and 2 rows
 
 int cursorColumn = 0;
 
-const String password = "12052012"; // the password
+const String password = "12345678"; // the password
 String input_password;
 
 void setup(){
